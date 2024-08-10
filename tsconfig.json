@@ -47,7 +47,8 @@
     "./globals.d.ts",
     "./jest-setup.ts",
     "src/**/*test.tsx",
-    "./build/types/**/*.ts"
+    "./build/types/**/*.ts",
+    ".next/types/**/*.ts"
   ],
   "exclude": [
     "node_modules",
