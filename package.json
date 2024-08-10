@@ -1,10 +1,17 @@
 {
-  "name": "react-float-menu",
-  "version": "0.4.7",
+  "name": "@masonstevens95/nextjs-float-menu",
+  "version": "0.1.0",
   "author": {
     "name": "Prabhu Murthy",
     "email": "prabhu.m.murthy@gmail.com"
   },
+  "contributors": [
+    {
+      "name": "Mason Stevens",
+      "email": "mason.c.stevens@gmail.com",
+      "url": "https://github.com/masonstevens95"
+    }
+  ],
   "homepage": "https://github.com/prabhuignoto/react-float-menu",
   "license": "MIT",
   "repository": {
