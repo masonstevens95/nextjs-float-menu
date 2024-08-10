@@ -14,6 +14,7 @@
   <a href="https://github.com/prabhuignoto/react-float-menu/actions/workflows/cypress.yml"><img src="https://github.com/prabhuignoto/react-float-menu/actions/workflows/cypress.yml/badge.svg" alt="cypress"></a>
 </p>
 
+<h1>Updated to Next.js August 10th, 2024</h1>
 
 <h2>Features</h2>
 
