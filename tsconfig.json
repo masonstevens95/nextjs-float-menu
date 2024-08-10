@@ -9,7 +9,7 @@
     ],
     "allowJs": true,
     "skipLibCheck": false,
-    "esModuleInterop": false,
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
@@ -17,7 +17,7 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "react-jsx",
+    "jsx": "preserve",
     "declaration": true,
     "declarationDir": "./dist",
     "outDir": "./dist",
@@ -29,6 +29,13 @@
       "react-dom",
       // "@testing-library/jest-dom",
       "@types/testing-library__jest-dom"
+    ],
+    "noEmit": true,
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
     ]
   },
   "include": [
@@ -39,12 +46,13 @@
     "src/models/*.ts",
     "./globals.d.ts",
     "./jest-setup.ts",
-    "src/**/*test.tsx"
+    "src/**/*test.tsx",
+    "./build/types/**/*.ts"
   ],
   "exclude": [
     "node_modules",
     "dist",
     "vite.config.ts",
-    "src/**/*.d.ts",
+    "src/**/*.d.ts"
   ]
 }

@@ -1,0 +1,492 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/menu-list-item/menu-list-item.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.menu-list-item_list_item__1FWbq {
+  width: 100%;
+  padding: 0.75rem 0;
+  cursor: pointer;
+  -ms-flex-item-align: center;
+      align-self: center;
+  position: relative;
+  -ms-touch-action: none;
+      touch-action: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.menu-list-item_list_item__1FWbq.menu-list-item_rtl__bJd9Z {
+  direction: rtl;
+}
+.menu-list-item_list_item__1FWbq.menu-list-item_no_icon__FUJvu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.menu-list-item_list_item__1FWbq.menu-list-item_icon__1WewP {
+  display: grid;
+  grid-template-columns: calc(var(--rc-fltmenu-icon-size) * 2) auto;
+  justify-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.menu-list-item_list_item__1FWbq:hover {
+  background: var(--rc-fltmenu-menu-item-hover, #f5f5f5);
+}
+.menu-list-item_list_item__1FWbq > span:not(.menu-list-item_list_item_name__fTPeB) {
+  color: var(--rc-fltmenu-primary);
+}
+.menu-list-item_list_item__1FWbq:hover > span {
+  color: var(--rc-fltmenu-menu-item-hover-text, --rc-fltmenu-primary);
+}
+.menu-list-item_list_item__1FWbq:not(:last-child) {
+  border-bottom: 1px solid #e5e5e5;
+}
+.menu-list-item_list_item__1FWbq:focus {
+  outline: 1px solid var(--rc-fltmenu-primary);
+  outline-offset: 2px;
+  outline-width: 2px;
+}
+
+.menu-list-item_list_item_name__fTPeB {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--rc-fltmenu-menu-item-text, #000);
+}
+.menu-list-item_list_item_name__fTPeB.menu-list-item_no_icon__FUJvu:not(.menu-list-item_rtl__bJd9Z) {
+  padding-left: var(--rc-fltmenu-icon-size, 1rem);
+}
+.menu-list-item_list_item_name__fTPeB.menu-list-item_no_icon__FUJvu.menu-list-item_rtl__bJd9Z {
+  padding-right: var(--rc-fltmenu-icon-size, 1rem);
+}
+
+.menu-list-item_list_item_icon__vHbHn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: var(--rc-fltmenu-icon-size, 1rem);
+  height: var(--rc-fltmenu-icon-size, 1rem);
+  justify-self: center;
+}
+.menu-list-item_list_item_icon__vHbHn svg {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-list-item_child_menu_wrapper__NWs_B {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 0;
+}
+.menu-list-item_child_menu_wrapper__NWs_B.menu-list-item_menu_flip__lLAF2 {
+  left: -101%;
+}
+.menu-list-item_child_menu_wrapper__NWs_B:not(.menu-list-item_menu_flip__lLAF2) {
+  left: 101%;
+}
+
+.menu-list-item_chevron__3X6Hk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 50%;
+  height: 1rem;
+  width: 1rem;
+}
+.menu-list-item_chevron__3X6Hk svg {
+  width: 100%;
+  height: 100%;
+}
+
+.menu-list-item_chevron_right__SLpai {
+  right: 0.5rem;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.menu-list-item_chevron_left__iv8dL {
+  left: 0.5rem;
+  -webkit-transform: translateY(-50%) rotate(180deg);
+          transform: translateY(-50%) rotate(180deg);
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/menu/menu.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.menu_wrapper__6rg0_ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  border-radius: 4px;
+  background: var(--rc-fltmenu-menu-bg-color, #fff);
+  -webkit-box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.menu_list__pJ4g3 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@-webkit-keyframes menu_menu-open-animation__VZmdC {
+  0% {
+    opacity: 0;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+  }
+  100% {
+    opacity: 1;
+    height: var(--menu-height, auto);
+    visibility: visible;
+    overflow: hidden;
+  }
+}
+
+@keyframes menu_menu-open-animation__VZmdC {
+  0% {
+    opacity: 0;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+  }
+  100% {
+    opacity: 1;
+    height: var(--menu-height, auto);
+    visibility: visible;
+    overflow: hidden;
+  }
+}
+@-webkit-keyframes menu_menu-close-animation__iRBmA {
+  0% {
+    opacity: 1;
+    height: var(--menu-height, auto);
+    visibility: visible;
+    overflow: hidden;
+  }
+  100% {
+    opacity: 0;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+  }
+}
+@keyframes menu_menu-close-animation__iRBmA {
+  0% {
+    opacity: 1;
+    height: var(--menu-height, auto);
+    visibility: visible;
+    overflow: hidden;
+  }
+  100% {
+    opacity: 0;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+  }
+}
+.menu_menu_open__B5b2s {
+  height: var(--menu-height, auto);
+}
+.menu_menu_open__B5b2s:not(.menu_no_animation__PRzW8) {
+  visibility: visible;
+  -webkit-animation: menu_menu-open-animation__VZmdC 0.5s ease-in-out;
+          animation: menu_menu-open-animation__VZmdC 0.5s ease-in-out;
+}
+
+.menu_menu_close__8565u:not(.menu_no_animation__PRzW8) {
+  visibility: hidden;
+  -webkit-animation: menu_menu-close-animation__iRBmA 0.5s ease-in-out;
+          animation: menu_menu-close-animation__iRBmA 0.5s ease-in-out;
+  height: 0;
+}
+
+.menu_hide__R_YwC {
+  visibility: hidden;
+}
+
+.menu_close_btn__qBmBf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  right: 0;
+  width: 28px;
+  height: 28px;
+  z-index: 1;
+  background: #f5f5f5;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--rc-fltmenu-primary);
+}
+.menu_close_btn__qBmBf.menu_flip__yPCcs {
+  margin-left: 4px;
+}
+.menu_close_btn__qBmBf:not(.menu_flip__yPCcs) {
+  margin-right: 4px;
+}
+.menu_close_btn__qBmBf:focus {
+  outline: 2px solid var(--rc-fltmenu-primary);
+  outline-offset: 1px;
+}
+.menu_close_btn__qBmBf:hover {
+  background: var(--rc-fltmenu-primary);
+  color: #fff;
+}
+.menu_close_btn__qBmBf svg {
+  width: 80%;
+  height: 80%;
+}
+
+.menu_toolbar__6u0DD {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+.menu_toolbar__6u0DD.menu_flip__yPCcs {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.menu_toolbar__6u0DD:not(.menu_flip__yPCcs) {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/menu-container/menu-container.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.menu-container_menu_container__MBO1c {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  width: var(--rc-fltmenu-width, 250px);
+  z-index: 99999;
+}
+.menu-container_menu_container__MBO1c.menu-container_open__rjPT7 {
+  visibility: visible;
+}
+.menu-container_menu_container__MBO1c.menu-container_close__heJ5W {
+  visibility: hidden;
+}
+
+.menu-container_menu_arrow__K7hUZ {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.menu-container_menu_arrow__K7hUZ::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 1;
+}
+.menu-container_menu_arrow__K7hUZ.menu-container_menu_open__suEKm:not(.menu-container_flip__JeRa0)::after {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid var(--rc-fltmenu-menu-bg-color, #fff);
+  top: -10px;
+}
+.menu-container_menu_arrow__K7hUZ.menu-container_menu_open__suEKm.menu-container_flip__JeRa0::after {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid var(--rc-fltmenu-menu-bg-color, #fff);
+  bottom: -10px;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/main/main.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.main_menu_head__1ifDD {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: var(--rc-fltmenu-primary);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: var(--dimension);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: var(--dimension);
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  z-index: 99999;
+}
+.main_menu_head__1ifDD:not(.main_is_dragged__TFxhh) {
+  -webkit-transition: left 0.1s ease, top 0.1s ease;
+  transition: left 0.1s ease, top 0.1s ease;
+}
+.main_menu_head__1ifDD.main_circle__K0K4b {
+  border-radius: 50%;
+}
+.main_menu_head__1ifDD.main_square__dm_hv {
+  border-radius: 4px;
+}
+.main_menu_head__1ifDD:focus {
+  outline: 1px solid var(--rc-fltmenu-primary);
+  outline-offset: 3px;
+  outline-width: 2px;
+}
+
+@-webkit-keyframes main_pressed-animation__e_8EQ {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75);
+  }
+}
+
+@keyframes main_pressed-animation__e_8EQ {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75);
+  }
+}
+@-webkit-keyframes main_released-animation__pUJCS {
+  0% {
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes main_released-animation__pUJCS {
+  0% {
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+.main_pressed__lZMKT {
+  -webkit-animation: main_pressed-animation__e_8EQ 0.2s ease-in-out;
+          animation: main_pressed-animation__e_8EQ 0.2s ease-in-out;
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+}
+
+.main_released__kg7b7 {
+  -webkit-animation: main_released-animation__pUJCS 0.2s ease-in-out;
+          animation: main_released-animation__pUJCS 0.2s ease-in-out;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.main_icon_container__GHeal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+}
+.main_icon_container__GHeal svg {
+  width: 80%;
+  height: 80%;
+}

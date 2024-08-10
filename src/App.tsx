@@ -1,4 +1,5 @@
 // import React from "react";
+import React from "react";
 import {
   CopyIcon,
   EditIcon,
@@ -11,7 +12,7 @@ import { Menu } from "./react-float-menu";
 
 function App() {
   return (
-    <div className="App">
+    <div className="w-full h-full">
       <Menu
         dimension={35}
         iconSize="1.25rem"
